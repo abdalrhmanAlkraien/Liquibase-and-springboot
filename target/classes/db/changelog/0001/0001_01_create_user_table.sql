@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS user_tb (
     last_name VARCHAR(255),
     mobile_number VARCHAR(255)
     );
--- rollback DROP TABLE user;
+-- rollback DROP TABLE user_tb;
