@@ -12,4 +12,4 @@ VALUES
     ('USER_FIRST_B','USER_LAST_B','99625511'),
     ('USER_FIRST_C','USER_LAST_C','99625555');
 
--- rollback DELETE FROM product WHERE first_name IN ('USER_FIRST_A', 'USER_FIRST_B', 'USER_FIRST_C');
+-- rollback DELETE FROM user_tb WHERE first_name IN ('USER_FIRST_A', 'USER_FIRST_B', 'USER_FIRST_C');
